@@ -1,0 +1,250 @@
+@media screen and (max-width: 699px) {
+  main {
+    margin-bottom: 5rem;
+  }
+
+  header {
+    padding: 1.2rem 2rem;
+  }
+
+  #hamburger {
+    display: block;
+    position: absolute;
+    right: 100px;
+  }
+
+  #hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #hamburger.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  nav {
+    margin-right: 4.1rem;
+  }
+
+  nav > ul {
+    position: fixed;
+    right: -100%;
+    top: 5.6rem;
+    gap: 0;
+    flex-direction: column;
+    background-color: #2f4632;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    padding: 2rem 0;
+  }
+
+  nav > ul.active {
+    right: 0;
+  }
+
+  nav > ul > li {
+    margin: 1.5rem 0;
+  }
+
+  .brand {
+    gap: 0.5rem;
+  }
+
+  .brand img {
+    height: 2rem;
+  }
+
+  .brand h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .hero .slogan h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero .slogan p {
+    font-size: 0.7rem;
+  }
+
+  .resto > h1 {
+    font-size: 1.5rem;
+    margin: 4rem 0 3rem 0;
+  }
+
+  .resto #resto-list {
+    grid-template-columns: 1fr;
+    margin: 0;
+    gap: 2rem;
+  }
+
+  .card {
+    max-width: 18rem;
+    height: 19rem;
+    border-radius: 1rem;
+  }
+
+  .card .image-container {
+    height: 10rem;
+    max-width: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .card-content {
+    padding: 1.2rem 1rem 2rem 1rem;
+  }
+
+  .card-content p {
+    font-size: 0.7rem;
+  }
+
+  .card-head > h2 {
+    font-size: 0.7rem;
+  }
+
+  .rating i,
+  .rating p {
+    font-size: 0.6rem;
+  }
+
+  .location {
+    margin: 0.5rem 0;
+  }
+
+  .location i,
+  .location p {
+    font-size: 0.6rem;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-content > img {
+    width: 20rem;
+    border-radius: 1rem;
+  }
+
+  .detail-content {
+    flex-direction: column;
+  }
+
+  .detail-info > h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .detail-info > ul > li > h3,
+  p {
+    font-size: 1rem;
+  }
+
+  .detail-info .overview > h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .detail-info .overview > p {
+    font-size: 1rem;
+  }
+
+  #detailReview {
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  #detailReview > h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  #detailReview > i {
+    font-size: 1.4rem;
+  }
+
+  #detailReview .review {
+    margin: -1.7rem 2.3rem 1rem 3rem;
+    background-color: #dccec6;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+  }
+
+  #detailReview .review p.name {
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  #detailReview .review p.date {
+    color: #828282;
+    font-size: 0.5rem;
+  }
+
+  #detailReview .review p.review-content {
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+  }
+
+  #favoriteContent > h2 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  #restos {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .footer-brand {
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .footer-brand p {
+    font-size: 0.6rem;
+    color: #f2e3db;
+  }
+
+  .footer-brand .mini-brand h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-brand .mini-brand img {
+    height: 2.5rem;
+  }
+
+  .social-media {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-media h5 {
+    font-size: 0.8rem;
+  }
+
+  .social-media-list {
+    gap: 0.7rem;
+  }
+
+  .social-media .social-media-list a > i {
+    font-size: 1rem;
+  }
+
+  .bottom-content h6 {
+    font-size: 0.5rem;
+  }
+}
